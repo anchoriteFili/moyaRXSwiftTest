@@ -1,0 +1,672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FDBDF7D5F2F4344D21225EE /* Pods_MayaRxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 087B407E53632198D7A138FB /* Pods_MayaRxSwift.framework */; };
+		D6F2507C202055FE003D7CCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F2507B202055FE003D7CCA /* AppDelegate.swift */; };
+		D6F2507E202055FE003D7CCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F2507D202055FE003D7CCA /* ViewController.swift */; };
+		D6F25081202055FE003D7CCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6F2507F202055FE003D7CCA /* Main.storyboard */; };
+		D6F25083202055FE003D7CCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6F25082202055FE003D7CCA /* Assets.xcassets */; };
+		D6F25086202055FE003D7CCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6F25084202055FE003D7CCA /* LaunchScreen.storyboard */; };
+		D6F25091202055FE003D7CCA /* MayaRxSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F25090202055FE003D7CCA /* MayaRxSwiftTests.swift */; };
+		D6F2509C202055FE003D7CCA /* MayaRxSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F2509B202055FE003D7CCA /* MayaRxSwiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6F2508D202055FE003D7CCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6F25070202055FD003D7CCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6F25077202055FE003D7CCA;
+			remoteInfo = MayaRxSwift;
+		};
+		D6F25098202055FE003D7CCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6F25070202055FD003D7CCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6F25077202055FE003D7CCA;
+			remoteInfo = MayaRxSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		087B407E53632198D7A138FB /* Pods_MayaRxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MayaRxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11DC103C9CDE8194F72716C5 /* Pods-MayaRxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MayaRxSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-MayaRxSwift/Pods-MayaRxSwift.release.xcconfig"; sourceTree = "<group>"; };
+		147C65E93470190A3224D826 /* Pods-MayaRxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MayaRxSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MayaRxSwift/Pods-MayaRxSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		D6F25078202055FE003D7CCA /* MayaRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MayaRxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6F2507B202055FE003D7CCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6F2507D202055FE003D7CCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D6F25080202055FE003D7CCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6F25082202055FE003D7CCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6F25085202055FE003D7CCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6F25087202055FE003D7CCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6F2508C202055FE003D7CCA /* MayaRxSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MayaRxSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6F25090202055FE003D7CCA /* MayaRxSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MayaRxSwiftTests.swift; sourceTree = "<group>"; };
+		D6F25092202055FE003D7CCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6F25097202055FE003D7CCA /* MayaRxSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MayaRxSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6F2509B202055FE003D7CCA /* MayaRxSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MayaRxSwiftUITests.swift; sourceTree = "<group>"; };
+		D6F2509D202055FE003D7CCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6F25075202055FE003D7CCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FDBDF7D5F2F4344D21225EE /* Pods_MayaRxSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F25089202055FE003D7CCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F25094202055FE003D7CCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B867C2DACD78C6125B1021E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				087B407E53632198D7A138FB /* Pods_MayaRxSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C12F1F1E5570C6FAF3456638 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				147C65E93470190A3224D826 /* Pods-MayaRxSwift.debug.xcconfig */,
+				11DC103C9CDE8194F72716C5 /* Pods-MayaRxSwift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D6F2506F202055FD003D7CCA = {
+			isa = PBXGroup;
+			children = (
+				D6F2507A202055FE003D7CCA /* MayaRxSwift */,
+				D6F2508F202055FE003D7CCA /* MayaRxSwiftTests */,
+				D6F2509A202055FE003D7CCA /* MayaRxSwiftUITests */,
+				D6F25079202055FE003D7CCA /* Products */,
+				C12F1F1E5570C6FAF3456638 /* Pods */,
+				2B867C2DACD78C6125B1021E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D6F25079202055FE003D7CCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6F25078202055FE003D7CCA /* MayaRxSwift.app */,
+				D6F2508C202055FE003D7CCA /* MayaRxSwiftTests.xctest */,
+				D6F25097202055FE003D7CCA /* MayaRxSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6F2507A202055FE003D7CCA /* MayaRxSwift */ = {
+			isa = PBXGroup;
+			children = (
+				D6F2507B202055FE003D7CCA /* AppDelegate.swift */,
+				D6F2507D202055FE003D7CCA /* ViewController.swift */,
+				D6F2507F202055FE003D7CCA /* Main.storyboard */,
+				D6F25082202055FE003D7CCA /* Assets.xcassets */,
+				D6F25084202055FE003D7CCA /* LaunchScreen.storyboard */,
+				D6F25087202055FE003D7CCA /* Info.plist */,
+			);
+			path = MayaRxSwift;
+			sourceTree = "<group>";
+		};
+		D6F2508F202055FE003D7CCA /* MayaRxSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6F25090202055FE003D7CCA /* MayaRxSwiftTests.swift */,
+				D6F25092202055FE003D7CCA /* Info.plist */,
+			);
+			path = MayaRxSwiftTests;
+			sourceTree = "<group>";
+		};
+		D6F2509A202055FE003D7CCA /* MayaRxSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6F2509B202055FE003D7CCA /* MayaRxSwiftUITests.swift */,
+				D6F2509D202055FE003D7CCA /* Info.plist */,
+			);
+			path = MayaRxSwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6F25077202055FE003D7CCA /* MayaRxSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6F250A0202055FE003D7CCA /* Build configuration list for PBXNativeTarget "MayaRxSwift" */;
+			buildPhases = (
+				0243BC878A36ACE210FDF22C /* [CP] Check Pods Manifest.lock */,
+				D6F25074202055FE003D7CCA /* Sources */,
+				D6F25075202055FE003D7CCA /* Frameworks */,
+				D6F25076202055FE003D7CCA /* Resources */,
+				ED7423E86664EA89656201BF /* [CP] Embed Pods Frameworks */,
+				3EA39D008A2AB6854679A66E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MayaRxSwift;
+			productName = MayaRxSwift;
+			productReference = D6F25078202055FE003D7CCA /* MayaRxSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6F2508B202055FE003D7CCA /* MayaRxSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6F250A3202055FE003D7CCA /* Build configuration list for PBXNativeTarget "MayaRxSwiftTests" */;
+			buildPhases = (
+				D6F25088202055FE003D7CCA /* Sources */,
+				D6F25089202055FE003D7CCA /* Frameworks */,
+				D6F2508A202055FE003D7CCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6F2508E202055FE003D7CCA /* PBXTargetDependency */,
+			);
+			name = MayaRxSwiftTests;
+			productName = MayaRxSwiftTests;
+			productReference = D6F2508C202055FE003D7CCA /* MayaRxSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6F25096202055FE003D7CCA /* MayaRxSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6F250A6202055FE003D7CCA /* Build configuration list for PBXNativeTarget "MayaRxSwiftUITests" */;
+			buildPhases = (
+				D6F25093202055FE003D7CCA /* Sources */,
+				D6F25094202055FE003D7CCA /* Frameworks */,
+				D6F25095202055FE003D7CCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6F25099202055FE003D7CCA /* PBXTargetDependency */,
+			);
+			name = MayaRxSwiftUITests;
+			productName = MayaRxSwiftUITests;
+			productReference = D6F25097202055FE003D7CCA /* MayaRxSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6F25070202055FD003D7CCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "赵宏亚";
+				TargetAttributes = {
+					D6F25077202055FE003D7CCA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					D6F2508B202055FE003D7CCA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D6F25077202055FE003D7CCA;
+					};
+					D6F25096202055FE003D7CCA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D6F25077202055FE003D7CCA;
+					};
+				};
+			};
+			buildConfigurationList = D6F25073202055FD003D7CCA /* Build configuration list for PBXProject "MayaRxSwift" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6F2506F202055FD003D7CCA;
+			productRefGroup = D6F25079202055FE003D7CCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6F25077202055FE003D7CCA /* MayaRxSwift */,
+				D6F2508B202055FE003D7CCA /* MayaRxSwiftTests */,
+				D6F25096202055FE003D7CCA /* MayaRxSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6F25076202055FE003D7CCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F25086202055FE003D7CCA /* LaunchScreen.storyboard in Resources */,
+				D6F25083202055FE003D7CCA /* Assets.xcassets in Resources */,
+				D6F25081202055FE003D7CCA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F2508A202055FE003D7CCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F25095202055FE003D7CCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0243BC878A36ACE210FDF22C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MayaRxSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3EA39D008A2AB6854679A66E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MayaRxSwift/Pods-MayaRxSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED7423E86664EA89656201BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MayaRxSwift/Pods-MayaRxSwift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/NSObject+Rx/NSObject_Rx.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/Reusable/Reusable.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Then/Then.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSObject_Rx.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reusable.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Then.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MayaRxSwift/Pods-MayaRxSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6F25074202055FE003D7CCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F2507E202055FE003D7CCA /* ViewController.swift in Sources */,
+				D6F2507C202055FE003D7CCA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F25088202055FE003D7CCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F25091202055FE003D7CCA /* MayaRxSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F25093202055FE003D7CCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F2509C202055FE003D7CCA /* MayaRxSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6F2508E202055FE003D7CCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6F25077202055FE003D7CCA /* MayaRxSwift */;
+			targetProxy = D6F2508D202055FE003D7CCA /* PBXContainerItemProxy */;
+		};
+		D6F25099202055FE003D7CCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6F25077202055FE003D7CCA /* MayaRxSwift */;
+			targetProxy = D6F25098202055FE003D7CCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6F2507F202055FE003D7CCA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6F25080202055FE003D7CCA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6F25084202055FE003D7CCA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6F25085202055FE003D7CCA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6F2509E202055FE003D7CCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6F2509F202055FE003D7CCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6F250A1202055FE003D7CCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 147C65E93470190A3224D826 /* Pods-MayaRxSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GM2EX5ALF4;
+				INFOPLIST_FILE = MayaRxSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhaohongya.MayaRxSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6F250A2202055FE003D7CCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11DC103C9CDE8194F72716C5 /* Pods-MayaRxSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GM2EX5ALF4;
+				INFOPLIST_FILE = MayaRxSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhaohongya.MayaRxSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6F250A4202055FE003D7CCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GM2EX5ALF4;
+				INFOPLIST_FILE = MayaRxSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhaohongya.MayaRxSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MayaRxSwift.app/MayaRxSwift";
+			};
+			name = Debug;
+		};
+		D6F250A5202055FE003D7CCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GM2EX5ALF4;
+				INFOPLIST_FILE = MayaRxSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhaohongya.MayaRxSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MayaRxSwift.app/MayaRxSwift";
+			};
+			name = Release;
+		};
+		D6F250A7202055FE003D7CCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GM2EX5ALF4;
+				INFOPLIST_FILE = MayaRxSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhaohongya.MayaRxSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MayaRxSwift;
+			};
+			name = Debug;
+		};
+		D6F250A8202055FE003D7CCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GM2EX5ALF4;
+				INFOPLIST_FILE = MayaRxSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhaohongya.MayaRxSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MayaRxSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6F25073202055FD003D7CCA /* Build configuration list for PBXProject "MayaRxSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6F2509E202055FE003D7CCA /* Debug */,
+				D6F2509F202055FE003D7CCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6F250A0202055FE003D7CCA /* Build configuration list for PBXNativeTarget "MayaRxSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6F250A1202055FE003D7CCA /* Debug */,
+				D6F250A2202055FE003D7CCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6F250A3202055FE003D7CCA /* Build configuration list for PBXNativeTarget "MayaRxSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6F250A4202055FE003D7CCA /* Debug */,
+				D6F250A5202055FE003D7CCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6F250A6202055FE003D7CCA /* Build configuration list for PBXNativeTarget "MayaRxSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6F250A7202055FE003D7CCA /* Debug */,
+				D6F250A8202055FE003D7CCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6F25070202055FD003D7CCA /* Project object */;
+}
