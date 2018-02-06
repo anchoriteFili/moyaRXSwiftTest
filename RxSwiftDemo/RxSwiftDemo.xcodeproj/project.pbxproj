@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		9C13E31A0540120D91290487 /* Pods_RxSwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45F0230E84F327D14CE82F44 /* Pods_RxSwiftDemo.framework */; };
 		D6F250AC20205D59003D7CCA /* LXFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F250AB20205D59003D7CCA /* LXFViewController.swift */; };
+		D6F250AE20205E15003D7CCA /* LXFNetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F250AD20205E15003D7CCA /* LXFNetworkTool.swift */; };
+		D6F250B020206414003D7CCA /* LXFModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F250AF20206414003D7CCA /* LXFModel.swift */; };
+		D6F250B220206D57003D7CCA /* LXFViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F250B120206D57003D7CCA /* LXFViewModel.swift */; };
+		D6F250B420206F15003D7CCA /* LXFViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F250B320206F15003D7CCA /* LXFViewModelType.swift */; };
 		FD3547591F6129050049AA36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3547581F6129050049AA36 /* AppDelegate.swift */; };
 		FD35475E1F6129060049AA36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD35475C1F6129060049AA36 /* Main.storyboard */; };
 		FD3547601F6129060049AA36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD35475F1F6129060049AA36 /* Assets.xcassets */; };
@@ -20,6 +24,10 @@
 		45F0230E84F327D14CE82F44 /* Pods_RxSwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A320555251942A268A3B4C4 /* Pods-RxSwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftDemo/Pods-RxSwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
 		D6F250AB20205D59003D7CCA /* LXFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXFViewController.swift; sourceTree = "<group>"; };
+		D6F250AD20205E15003D7CCA /* LXFNetworkTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXFNetworkTool.swift; sourceTree = "<group>"; };
+		D6F250AF20206414003D7CCA /* LXFModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXFModel.swift; sourceTree = "<group>"; };
+		D6F250B120206D57003D7CCA /* LXFViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXFViewModel.swift; sourceTree = "<group>"; };
+		D6F250B320206F15003D7CCA /* LXFViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXFViewModelType.swift; sourceTree = "<group>"; };
 		FD3547551F6129050049AA36 /* RxSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD3547581F6129050049AA36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD35475D1F6129060049AA36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -78,12 +86,16 @@
 		FD3547571F6129050049AA36 /* RxSwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
-				D6F250AB20205D59003D7CCA /* LXFViewController.swift */,
 				FD3547581F6129050049AA36 /* AppDelegate.swift */,
 				FD35475C1F6129060049AA36 /* Main.storyboard */,
 				FD35475F1F6129060049AA36 /* Assets.xcassets */,
 				FD3547611F6129060049AA36 /* LaunchScreen.storyboard */,
 				FD3547641F6129060049AA36 /* Info.plist */,
+				D6F250AD20205E15003D7CCA /* LXFNetworkTool.swift */,
+				D6F250AF20206414003D7CCA /* LXFModel.swift */,
+				D6F250AB20205D59003D7CCA /* LXFViewController.swift */,
+				D6F250B120206D57003D7CCA /* LXFViewModel.swift */,
+				D6F250B320206F15003D7CCA /* LXFViewModelType.swift */,
 			);
 			path = RxSwiftDemo;
 			sourceTree = "<group>";
@@ -213,8 +225,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6F250B020206414003D7CCA /* LXFModel.swift in Sources */,
+				D6F250B420206F15003D7CCA /* LXFViewModelType.swift in Sources */,
 				FD3547591F6129050049AA36 /* AppDelegate.swift in Sources */,
+				D6F250AE20205E15003D7CCA /* LXFNetworkTool.swift in Sources */,
 				D6F250AC20205D59003D7CCA /* LXFViewController.swift in Sources */,
+				D6F250B220206D57003D7CCA /* LXFViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
