@@ -18,34 +18,20 @@ import Kingfisher
 import MJRefresh
 
 
-
-
-
-
 class LXFViewController: UIViewController {
     
-    
-    
-    
-    
-    
-    
-    
+    let viewModel = LXFViewModel()
+    let tableView = UITableView().then {
+        $0.backgroundColor = UIColor.red
+        $0.register(cellType: LXFViewCell.self)
+        $0.rowHeight = LXFViewCell.cellHeigh()
+    }
     
     let dataSource = RxTableViewSectionedReloadDataSource<LXFSection>()
-    
-    
-    
-    
+    var vmOutPut : LXFViewModel.LXFOutput?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
-        
-        
-        
-        
 
         // Do any additional setup after loading the view.
     }
@@ -67,3 +53,24 @@ class LXFViewController: UIViewController {
     */
 
 }
+
+extension LXFViewController {
+    
+    fileprivate func setupUI() {
+        
+        
+        
+        
+        
+    }
+    
+    
+    
+}
+
+
+
+
+
+
+

@@ -72,22 +72,20 @@ extension LXFViewModel: LXFViewModelType {
         
         let output = LXFOutput(sections: sections)
         
-        
-        output.requestCommond.subscribe(onNext: { [unowned self] (isReloadData) in
-            
+        output.requestCommond.subscribe(onNext: {[unowned self] isReloadData in
             self.index = isReloadData ? 1 : self.index+1
-            
-            lxfNetTool.request(.)
-            
-            
-            
-            
-            
-        }, onError: <#T##((Error) -> Void)?##((Error) -> Void)?##(Error) -> Void#>, onCompleted: <#T##(() -> Void)?##(() -> Void)?##() -> Void#>, onDisposed: <#T##(() -> Void)?##(() -> Void)?##() -> Void#>)
-        
-        
-        
-        
+            lxfNetTool.request(.data(type: input.category, size: 10, index: self.index)).mapArray(LXFModel.self).subscribe({ [weak self] (event) in
+                switch event {
+                case let .next(modelArr):
+                    self?.models.value = isReloadData ? modelArr : (self?.models.value ?? []) + modelArr
+                    LXFProgressHUD.showSuccess("加载成功")
+                case let .error(error):
+                    LXFProgressHUD.showError(error.localizedDescription)
+                case .completed:
+                    output.refreshStates.value = isReloadData ? .endHeaderRefresh : .endFooterRefresh
+                }
+            }).addDisposableTo(self.rx_disposeBag)
+        }).addDisposableTo(rx_disposeBag)
         
         
         return output
