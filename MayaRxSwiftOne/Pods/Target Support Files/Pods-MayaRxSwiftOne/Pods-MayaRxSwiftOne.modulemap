@@ -1,0 +1,6 @@
+framework module Pods_MayaRxSwiftOne {
+  umbrella header "Pods-MayaRxSwiftOne-umbrella.h"
+
+  export *
+  module * { export * }
+}
